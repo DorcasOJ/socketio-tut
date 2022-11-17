@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 2rem;
+}
+
+.message-container {
+    margin: 1rem 0;
+    min-height: 78%;
+    min-width: 100%;
+    border: .7px solid blue;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 1px rebeccapurple;
+}
+
+.message-container div {
+    border-bottom: .3px dashed rgb(159, 159, 194);
+}
+.message-container div span {
+    color: rgb(92, 92, 221);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div {
+    padding: 10px 0;
+}
+
+button {
+    padding: 5px 10px;
+    background: none;
+    color: blue;
+    border: 1px solid rgb(159, 159, 194);
+    border-radius: 10px;
+
+}
+
+input {
+    border-radius: 10px;
+    border: .2px dashed rgb(159, 159, 194);
+    min-height: 2em;
+}
+
+input:focus {
+    outline: .5px solid rgb(159, 159, 194);
+    border: none;
+}
+
+label {}
